@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+$font1:'Space Mono', monospace; 
+$font2:'Bebas Neue', cursive;
+$font3:'Fredoka One', cursive;
+
+$color1:#40454B;
+$color2:#050709;
+$color3:#2B2B2B;
+$color4:#CDCDCB;
+$color5:#222222;
+$color6:#4848bd;
+
+@mixin nextPage{
+        margin-top: 200px;
+        font-size: 45px;
+        font-weight: 600;
+        a{
+            color: $color5;
+            transition: 400ms;
+            &:hover{
+                color: $color4;
+            }
+        }
+    }
+
+@mixin backImg{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 1;
+    transition: 400ms;
+}
+
+

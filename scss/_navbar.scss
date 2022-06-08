@@ -1,0 +1,43 @@
+.logo-img{
+    font-size: 60px;
+    color: $color3;
+    margin-right: 10px;
+
+}
+.logotitle{
+    font-size: 50px;
+    font-family: $font2;
+    color: $color3;
+    transition: all 400ms;
+
+}
+
+.logo-p{
+    font-size: 22px;
+    font-family: $font2;
+    color: $color5;
+    
+}
+
+.nav-item{
+    font-size: 30px;
+    font-family: $font1;
+    padding: 0px 10px;
+    @media (min-width:992px) and (max-width:1200px){
+        font-size: 20px;
+    }
+    a{
+        color: $color1;
+        &:hover{
+            color: $color4;
+        }
+    }
+    .nav-link:focus{
+        color: $color1;
+    }
+}
+
+.header{
+    box-shadow: 0px 0px 70px $color2;
+    margin-bottom: 30px;
+}
