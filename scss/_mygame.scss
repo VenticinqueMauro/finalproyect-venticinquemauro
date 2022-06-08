@@ -1,0 +1,287 @@
+@import 'variables';
+
+$colorgame1: #D4DFEE;
+$colorgame2: #476591;
+$colorgame3: #FFE271;
+
+.catchrunner{
+    width: 90%;
+    background: rgb(212,223,238);
+    background: linear-gradient(270deg, rgba(212,223,238,1) 0%, rgba(71,101,145,1) 100%);
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px $color4;
+    font-family: $font4;
+    &__title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &-h1{
+            font-size: 25px;
+            color: $colorgame3;
+            text-shadow: 0px 0px 3px #000;
+            margin-top: 70px;
+        }
+        &-img{
+            width: 150px;
+        }
+    }
+    &__description{
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        &-h2{
+            width: 50%;
+            font-size: 20px;
+            color: $colorgame1;
+            text-shadow: 0px 0px 3px #000;
+            text-align: center;
+            margin-right: 20px;
+            span{
+                font-size: 23px;
+                font-weight: bold;
+                color: $colorgame3;
+                text-shadow: 0px 0px 3px #000;
+            }
+        }
+        &-img{
+            width: 50%;
+            width: 400px;
+            border-radius: 20px;
+            box-shadow: 0px 0px 10px #000;
+        }
+    }
+}
+
+.marquee{
+    margin-top: 20px;
+    &__a{
+        &-img{
+            width: 200px;
+        }
+    }
+}
+
+// NIVEL 1
+
+.lv1{
+    width: 90%;
+    margin: auto;
+    background-image: url("../img/running/nivel1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    border-radius: 50px;
+    .niveles{
+        color: $colorgame3;
+        font-size: 45px;
+        text-shadow: 0px 0px 3px #000;
+        text-align: center;
+    }
+    .stickman{
+        width: 130px;
+        margin-top: 260px;
+
+    }
+}
+
+// NIVEL 2
+
+.lv2{
+    width: 90%;
+    margin: auto;
+    background-image: url("../img/running/nivel2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    border-radius: 50px;
+    .niveles{
+        color: $colorgame3;
+        font-size: 45px;
+        text-shadow: 0px 0px 3px #000;
+        text-align: center;
+    }
+    .stickman{
+        width: 130px;
+        margin-top: 260px;
+
+    }
+}
+
+// NIVEL 3
+
+.lv3{
+    width: 90%;
+    margin: auto;
+    background-image: url("../img/running/nivel3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    border-radius: 50px;
+    .niveles{
+        color: $colorgame3;
+        font-size: 45px;
+        text-shadow: 0px 0px 3px #000;
+        text-align: center;
+    }
+    .stickman{
+        width: 130px;
+        margin-top: 260px;
+
+    }
+}
+
+// NIVEL 4
+
+.lv4{
+    width: 90%;
+    margin: auto;
+    background-image: url("../img/running/nivel4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    border-radius: 50px;
+    .niveles{
+        color: $colorgame3;
+        font-size: 45px;
+        text-shadow: 0px 0px 3px #000;
+        text-align: center;
+    }
+    .stickman{
+        width: 130px;
+        margin-top: 260px;
+
+    }
+}
+
+// NIVEL 5
+
+.lv5{
+    width: 90%;
+    margin: auto;
+    background-image: url("../img/running/nivel5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    border-radius: 50px;
+    .niveles{
+        color: $colorgame3;
+        font-size: 45px;
+        text-shadow: 0px 0px 3px #000;
+        text-align: center;
+    }
+    .stickman{
+        width: 130px;
+        margin-top: 260px;
+
+    }
+}
+
+// NIVEL 6
+
+.lv6{
+    width: 90%;
+    margin: auto;
+    background-image: url("../img/running/nivel6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    border-radius: 50px;
+    .niveles{
+        color: $colorgame3;
+        font-size: 45px;
+        text-shadow: 0px 0px 3px #000;
+        text-align: center;
+    }
+    .stickman{
+        width: 130px;
+        margin-top: 260px;
+
+    }
+}
+
+// NIVEL 7
+
+.lv7{
+    width: 90%;
+    margin: auto;
+    background-image: url("../img/running/nivel7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    border-radius: 50px;
+    .niveles{
+        color: $colorgame3;
+        font-size: 45px;
+        text-shadow: 0px 0px 3px #000;
+        text-align: center;
+    }
+    .stickman{
+        width: 130px;
+        margin-top: 260px;
+
+    }
+}
+
+// NIVEL 8
+
+.lv8{
+    width: 90%;
+    margin: auto;
+    background-image: url("../img/running/nivel8.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    border-radius: 50px;
+    .niveles{
+        color: $colorgame3;
+        font-size: 45px;
+        text-shadow: 0px 0px 3px #000;
+        text-align: center;
+    }
+    .stickman{
+        width: 130px;
+        margin-top: 260px;
+
+    }
+}
+
+// FINISH 
+
+.finish{
+    width: 90%;
+    text-align: center;
+    font-family: $font4;
+    background: rgb(212,223,238);
+    background: linear-gradient(270deg, rgba(212,223,238,1) 0%, rgba(71,101,145,1) 100%);
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px $color4;
+    &__text{
+        padding: 50px;
+        color: $colorgame1;
+        text-shadow: 0px 0px 3px #000;
+        &-h1{
+            font-size: 35px;
+            color: $colorgame3;
+        }
+        &-h3{
+            padding-top: 50px;
+        }
+    }
+    &__a{
+        font-size: 30px;
+        text-decoration: none;
+        color: $colorgame2;
+        text-shadow: 0px 0px 3px #000;
+    }
+}
