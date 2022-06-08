@@ -224,11 +224,6 @@ body {
   font-size: 45px;
   font-weight: 600;
 }
-@media (max-width: 992px) {
-  .main__nextpage {
-    display: none;
-  }
-}
 .main__nextpage a {
   color: #222222;
   transition: 400ms;
