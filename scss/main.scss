@@ -13,6 +13,26 @@ body{
 // SECTION 1
 
 
+.presentacion{
+    width: 100%;
+    border-radius: 50px;
+    font-family: $font3;
+    text-align: center;
+    color: $color4;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    &__h2{
+        font-size: 40px;
+    }
+    &__p{
+        font-size: 50px;
+
+    }
+}
+
 .main{
     display: flex;
     align-items: center;
@@ -62,13 +82,12 @@ body{
         font-size: 40px;
         font-family: $font1;
         transition: 800ms;
+        color: $color4;
         @media (max-width:992px){
             font-size: 35px;
             text-align: center;
         }
-        &:hover{
-            color: $color4;
-        }
+        
     }
     &__btn{
         margin-top: 30px;
@@ -174,12 +193,13 @@ body{
     &__text{
         font-size: 20px;
         text-align: center;
-        color: $color3;
+        color: $color1;
         font-family: $font2;
         font-weight: 400;
         transition: 600ms;
         @media (max-width:992px){
             font-size: 18px;
+            color: $color4;
         }
         &:hover{
             transform: scale(1.1);
@@ -233,11 +253,9 @@ body{
         &--p{
             font-size: 23px;
             transition: 600ms;
+            color: $color4;
             @media (max-width:992px){
                 font-size: 18px;
-            }
-            &:hover{
-                color: $color4;
             }
         }
     }

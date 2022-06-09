@@ -9,6 +9,10 @@
     <meta name="author" content="Venticinque Mauro">
     <meta name="keywords" content="final proyect, html5, css3, desarrollo web, web developer, front-end">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Final Proyect</title>
 </head>
@@ -17,7 +21,7 @@
 
     <!-- HEADER NAV START -->
 
-    <header class="container-fuild header">
+    <header class="container-fuild header animate__animated animate__fadeInDown animate__delay-4s">
         <nav class="navbar navbar-expand-lg mx-5" id="nav">
             <div class="container-fluid" id="nav">
                 <a class="navbar-brand" href="index.html"><i class="fa-solid fa-graduation-cap logo-img"></i><span
@@ -38,7 +42,7 @@
                             <a class="nav-link" href="pages/services.html">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="pages/mygame.html">My Game</a>
+                            <a class="nav-link" href="pages/mygame.html"><i class="fa-solid fa-gamepad" style="font-size: 25px;"></i> Game</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="pages/galery.html">Galery</a>
@@ -57,8 +61,12 @@
     <!-- HEADER NAV END -->
 
     <!-- PRESENTACION START -->
+    <div class="presentacion animate__animated animate__fadeOut animate__delay-2s">
+        <h2 class="presentacion__h2">A CONTINUACION UN POCO DE LO APRENDIDO EN ESTE CURSO</h2>
+        <p class="presentacion__p">QUE LO DISFRUTES!</p>
+    </div>
 
-    <div class="container-fluid">
+    <div class="container-fluid animate__animated animate__fadeIn animate__delay-3s">
         <div class="main">
             <div class="main__redes">
                 <div class="linea"></div>
@@ -169,7 +177,7 @@
     </footer>
 
 
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://kit.fontawesome.com/ab487c5b2d.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"

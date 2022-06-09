@@ -457,6 +457,25 @@ body {
   background: linear-gradient(67deg, rgb(5, 7, 9) 0%, rgb(34, 34, 34) 94%);
 }
 
+.presentacion {
+  width: 100%;
+  border-radius: 50px;
+  font-family: "Fredoka One", cursive;
+  text-align: center;
+  color: #CDCDCB;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+}
+.presentacion__h2 {
+  font-size: 40px;
+}
+.presentacion__p {
+  font-size: 50px;
+}
+
 .main {
   display: flex;
   align-items: center;
@@ -508,15 +527,13 @@ body {
   font-size: 40px;
   font-family: "Space Mono", monospace;
   transition: 800ms;
+  color: #CDCDCB;
 }
 @media (max-width: 992px) {
   .main__text--welcome {
     font-size: 35px;
     text-align: center;
   }
-}
-.main__text--welcome:hover {
-  color: #CDCDCB;
 }
 .main__btn {
   margin-top: 30px;
@@ -630,7 +647,7 @@ body {
 .tools__text {
   font-size: 20px;
   text-align: center;
-  color: #2B2B2B;
+  color: #40454B;
   font-family: "Bebas Neue", cursive;
   font-weight: 400;
   transition: 600ms;
@@ -638,6 +655,7 @@ body {
 @media (max-width: 992px) {
   .tools__text {
     font-size: 18px;
+    color: #CDCDCB;
   }
 }
 .tools__text:hover {
@@ -702,14 +720,12 @@ body {
 .sec3__text--p {
   font-size: 23px;
   transition: 600ms;
+  color: #CDCDCB;
 }
 @media (max-width: 992px) {
   .sec3__text--p {
     font-size: 18px;
   }
-}
-.sec3__text--p:hover {
-  color: #CDCDCB;
 }
 @media (max-width: 992px) {
   .sec3__img {
