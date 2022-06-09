@@ -6,6 +6,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 .logo-img {
   font-size: 60px;
   color: #CDCDCB;
@@ -388,6 +392,62 @@
   font-size: 30px;
   text-decoration: none;
   color: #476591;
+  text-shadow: 0px 0px 3px #000;
+}
+
+.contact {
+  font-family: "Space Mono", monospace;
+}
+.contact__title {
+  border-radius: 10px;
+}
+.contact__title-h1 {
+  color: #CDCDCB;
+  font-size: 35px;
+}
+
+.contact__center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact__center--form {
+  min-width: 380px;
+  width: 400px;
+}
+.contact__center--form-container {
+  margin: 10px 0px;
+  background-color: none;
+  border: none;
+}
+.contact__center--form-container .input__msj {
+  width: 100%;
+  color: #CDCDCB;
+  text-align: center;
+  border: none;
+  background-color: #222222;
+  border-bottom: 2px solid #40454B;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 400ms;
+}
+.contact__center--form-container .input__msj:hover {
+  background-color: #40454B;
+}
+.contact__center--form-container .btn__contact {
+  background-color: #CDCDCB;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  color: #2B2B2B;
+  font-size: 22px;
+  font-weight: bold;
+  transition: 400ms;
+}
+.contact__center--form-container .btn__contact:hover {
+  color: #CDCDCB;
+  background-color: #40454B;
+  font-size: 23px;
   text-shadow: 0px 0px 3px #000;
 }
 
