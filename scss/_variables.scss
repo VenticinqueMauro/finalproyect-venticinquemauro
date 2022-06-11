@@ -16,6 +16,19 @@ $color4:#CDCDCB;
 $color5:#222222;
 $color6:#4848bd;
 
+// MAPA
+
+$palette: (
+    'color1': #40454b,
+    'color2':#050709,
+    'color3':#2B2B2B,
+    'color4':#CDCDCB,
+    'color5':#222222,
+    'color6':#4848bd,
+);
+
+// MIXIN 
+
 @mixin nextPage{
         margin-top: 200px;
         font-size: 45px;
