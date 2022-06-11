@@ -484,7 +484,7 @@ body {
   padding-top: 30px;
 }
 .main__redes {
-  margin-top: 50px;
+  padding-top: 50px;
   font-size: 25px;
   display: flex;
   gap: 1rem;
@@ -502,7 +502,7 @@ body {
   background-color: #2B2B2B;
 }
 .main__text--hello {
-  margin-top: 50px;
+  padding-top: 50px;
   color: #40454B;
   font-size: 60px;
   text-align: center;
@@ -523,7 +523,7 @@ body {
   }
 }
 .main__text--welcome {
-  margin-top: 50px;
+  padding-top: 50px;
   font-size: 40px;
   font-family: "Space Mono", monospace;
   transition: 800ms;
@@ -556,13 +556,13 @@ body {
   color: #40454B;
 }
 .main__nextpage {
-  margin-top: 80px;
+  padding-top: 80px;
   font-size: 40px;
   font-weight: 600;
 }
 @media (max-width: 992px) {
   .main__nextpage {
-    margin-top: 50px;
+    padding-top: 50px;
     font-size: 25px;
   }
 }
@@ -575,18 +575,10 @@ body {
 }
 
 .sec2 {
-  margin-top: 100px;
-  height: 100vh;
-}
-@media (max-width: 992px) {
-  .sec2 {
-    margin-top: -190px;
-  }
+  padding-top: 50px;
 }
 .sec2__title {
-  margin: 200px 30px 10px 30px;
-  padding-top: 50px;
-  padding-bottom: 40px;
+  text-align: center;
   font-family: "Space Mono", monospace;
   font-size: 50px;
   color: #40454B;
@@ -605,7 +597,7 @@ body {
   text-align: center;
 }
 .tools__a--img {
-  width: 110px;
+  width: 100px;
   margin: 20px 0px;
   transition: 600ms;
 }
@@ -615,16 +607,16 @@ body {
   }
 }
 .tools__a--img:hover {
-  width: 120px;
+  width: 105px;
 }
 @media (max-width: 992px) {
   .tools__a--img:hover {
-    width: 90px;
+    width: 85px;
   }
 }
 .tools__a--imgS {
-  width: 110px;
-  height: 110px;
+  width: 100px;
+  height: 100px;
   margin: 20px 0px;
   transition: 600ms;
 }
@@ -635,31 +627,48 @@ body {
   }
 }
 .tools__a--imgS:hover {
-  width: 120px;
-  height: 120px;
+  width: 105px;
+  height: 105px;
 }
 @media (max-width: 992px) {
   .tools__a--imgS:hover {
-    width: 90px;
-    height: 90px;
+    width: 85px;
+    height: 85px;
   }
 }
 .tools__text {
-  font-size: 20px;
-  text-align: center;
+  font-size: 18px;
   color: #40454B;
   font-family: "Bebas Neue", cursive;
   font-weight: 400;
-  transition: 600ms;
+  transition: 400ms;
 }
 @media (max-width: 992px) {
   .tools__text {
-    font-size: 18px;
     color: #CDCDCB;
   }
 }
 .tools__text:hover {
-  transform: scale(1.1);
+  color: #CDCDCB;
+}
+
+.btn__nextpage {
+  padding-top: 80px;
+  padding-bottom: 30px;
+  font-size: 40px;
+  font-weight: 600;
+}
+@media (max-width: 992px) {
+  .btn__nextpage {
+    padding-top: 50px;
+    font-size: 25px;
+  }
+}
+.btn__nextpage a {
+  color: #222222;
+  transition: 400ms;
+}
+.btn__nextpage a:hover {
   color: #CDCDCB;
 }
 
@@ -667,54 +676,36 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 100px;
-  padding-top: 50px;
 }
 @media (max-width: 992px) {
   .sec3 {
     text-align: center;
-    margin-top: 150px;
-  }
-}
-@media (min-width: 992px) and (max-width: 1199px) {
-  .sec3 {
-    margin-top: 300px;
   }
 }
 .sec3__text {
+  padding-top: 50px;
   font-family: "Space Mono", monospace;
-}
-@media (max-width: 426px) {
-  .sec3__text {
-    margin-top: 250px;
-  }
-}
-@media (max-width: 992px) {
-  .sec3__text {
-    margin-top: 100px;
-  }
 }
 .sec3__text--h2 {
   font-size: 50px;
   color: #CDCDCB;
-  padding-bottom: 50px;
 }
 @media (max-width: 992px) {
   .sec3__text--h2 {
     font-size: 35px;
   }
 }
-.sec3__text--h2 .tutor {
+.sec3__text--h2 .profe, .sec3__text--h2 .tutor, .sec3__text--h2 .alumno {
   font-size: 30px;
   color: #40454B;
   transition: 600ms;
 }
 @media (max-width: 992px) {
-  .sec3__text--h2 .tutor {
+  .sec3__text--h2 .profe, .sec3__text--h2 .tutor, .sec3__text--h2 .alumno {
     font-size: 28px;
   }
 }
-.sec3__text--h2 .tutor:hover {
+.sec3__text--h2 .profe:hover, .sec3__text--h2 .tutor:hover, .sec3__text--h2 .alumno:hover {
   color: #CDCDCB;
 }
 .sec3__text--p {
@@ -727,15 +718,19 @@ body {
     font-size: 18px;
   }
 }
+.sec3__img {
+  padding-top: 50px;
+}
 @media (max-width: 992px) {
   .sec3__img {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    padding-top: 50px;
   }
 }
 .sec3__img-t {
+  width: 350px;
   border-radius: 50%;
   box-shadow: 0px 0px 10px #CDCDCB;
 }
