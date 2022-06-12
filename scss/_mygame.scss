@@ -26,6 +26,9 @@ $colorgame3: #FFE271;
         }
         &-img{
             width: 150px;
+            @media (max-width: 777px){
+                width: 130px;
+            }
         }
     }
     &__description{
@@ -43,7 +46,7 @@ $colorgame3: #FFE271;
             text-align: center;
             margin-right: 20px;
             @media (max-width: 777px){
-                font-size: 18px;
+                font-size: 12px;
             }
             span{
                 font-size: 23px;
@@ -51,7 +54,7 @@ $colorgame3: #FFE271;
                 color: $colorgame3;
                 text-shadow: 0px 0px 3px #000;
                 @media (max-width: 777px){
-                    font-size: 18px;
+                    font-size: 14px;
                 }
             }
         }
@@ -60,6 +63,9 @@ $colorgame3: #FFE271;
             width: 400px;
             border-radius: 20px;
             box-shadow: 0px 0px 10px #000;
+            @media (max-width: 777px){
+                display: none;
+            }
         }
     }
 }
