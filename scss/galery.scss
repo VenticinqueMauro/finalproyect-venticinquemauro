@@ -4,11 +4,11 @@
     font-family: $font1;
     &__title{
         text-align: center;
-        color: map-get($map: $palette, $key:'color4' );
+        color: map-get($map: $palette, $key:'color4' ); // USO DE MAP
         margin-bottom: 20px;
         &-s{
             font-size: 40px;
-        } // USO DE MAP 
+        } 
     }
     &__imgs{
         &--container{
@@ -19,7 +19,7 @@
                 transition: 400ms;
                 border-radius: 5px;
                 &:hover{
-                    transform: scale(1.1);
+                    transform: scale(1.04);
                     box-shadow: 0px 0px 10px $color4;
                 }
             }

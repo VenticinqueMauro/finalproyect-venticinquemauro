@@ -14,6 +14,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+.main__btn {
+  margin-top: 30px;
+  width: 180px;
+  margin-right: 30px;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+  transition: all 400ms;
+}
+.main__btn:hover {
+  transform: scale(1.1);
+}
+
 .logo-img {
   font-size: 60px;
   color: #CDCDCB;
@@ -122,10 +135,10 @@
   font-family: "Bebas Neue", cursive;
   border-radius: 20px;
   padding: 6px;
-  transition: 300ms;
+  transition: 400ms;
 }
 .portfolio__btn:hover {
-  font-size: 23px;
+  font-size: 22px;
   color: #2B2B2B;
 }
 
@@ -143,6 +156,19 @@
 }
 .proyect__text-p:hover {
   color: #CDCDCB;
+}
+
+.main__btn {
+  margin-top: 30px;
+  width: 180px;
+  margin-right: 30px;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+  transition: all 400ms;
+}
+.main__btn:hover {
+  transform: scale(1.1);
 }
 
 .catchrunner {
@@ -164,6 +190,11 @@
   text-shadow: 0px 0px 3px #000;
   margin-top: 70px;
 }
+@media (max-width: 777px) {
+  .catchrunner__title-h1 {
+    font-size: 18px;
+  }
+}
 .catchrunner__title-img {
   width: 150px;
 }
@@ -183,11 +214,21 @@
   text-align: center;
   margin-right: 20px;
 }
+@media (max-width: 777px) {
+  .catchrunner__description-h2 {
+    font-size: 18px;
+  }
+}
 .catchrunner__description-h2 span {
   font-size: 23px;
   font-weight: bold;
   color: #FFE271;
   text-shadow: 0px 0px 3px #000;
+}
+@media (max-width: 777px) {
+  .catchrunner__description-h2 span {
+    font-size: 18px;
+  }
 }
 .catchrunner__description-img {
   width: 50%;
@@ -389,14 +430,43 @@
   font-size: 35px;
   color: #FFE271;
 }
+@media (max-width: 777px) {
+  .finish__text-h1 {
+    font-size: 20px;
+  }
+}
 .finish__text-h3 {
   padding-top: 50px;
+}
+@media (max-width: 777px) {
+  .finish__text-h3 {
+    font-size: 18px;
+    text-align: center;
+  }
 }
 .finish__a {
   font-size: 30px;
   text-decoration: none;
   color: #476591;
   text-shadow: 0px 0px 3px #000;
+}
+@media (max-width: 777px) {
+  .finish__a {
+    font-size: 16px;
+  }
+}
+
+.main__btn {
+  margin-top: 30px;
+  width: 180px;
+  margin-right: 30px;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+  transition: all 400ms;
+}
+.main__btn:hover {
+  transform: scale(1.1);
 }
 
 .contact {
@@ -455,6 +525,19 @@
   text-shadow: 0px 0px 3px #000;
 }
 
+.main__btn {
+  margin-top: 30px;
+  width: 180px;
+  margin-right: 30px;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+  transition: all 400ms;
+}
+.main__btn:hover {
+  transform: scale(1.1);
+}
+
 .galery {
   font-family: "Space Mono", monospace;
 }
@@ -476,7 +559,7 @@
   border-radius: 5px;
 }
 .galery__imgs--container-img:hover {
-  transform: scale(1.1);
+  transform: scale(1.04);
   box-shadow: 0px 0px 10px #CDCDCB;
 }
 
@@ -565,17 +648,8 @@ body {
   }
 }
 .main__btn {
-  margin-top: 30px;
-  width: 180px;
-  margin-right: 30px;
-  border-radius: 20px;
-  border: none;
-  text-align: center;
   background-color: #CDCDCB;
-  transition: all 400ms;
-}
-.main__btn:hover {
-  transform: scale(1.1);
+  color: #2B2B2B;
 }
 .main__btn a {
   text-decoration: none;

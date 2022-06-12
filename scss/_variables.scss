@@ -19,7 +19,7 @@ $color6:#4848bd;
 // MAPA
 
 $palette: (
-    'color1': #40454b,
+    'color1':#40454b,
     'color2':#050709,
     'color3':#2B2B2B,
     'color4':#CDCDCB,
@@ -27,7 +27,30 @@ $palette: (
     'color6':#4848bd,
 );
 
+// EXTEND
+
+%btn{
+    margin-top: 30px;
+    width: 180px;
+    margin-right: 30px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    transition: all 400ms;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
 // MIXIN 
+
+@mixin boton($fondo, $letra){
+    @extend %btn;
+    background-color: $fondo;
+    color: $letra;
+}
+
+
 
 @mixin nextPage{
         margin-top: 200px;
