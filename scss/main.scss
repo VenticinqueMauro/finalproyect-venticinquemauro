@@ -337,6 +337,28 @@ body{
 }
 
 
+// BOTON WHATSAPP
+
+.botn__whatsapp{
+    background-color: $color1;
+    bottom: 35px;
+    right: 35px;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 50%;
+    text-align: center;
+    position: fixed;
+    font-size: 30px;
+    color: $color4;
+    transition: 400ms;
+    &:hover{
+        background-color: $color4;
+        color: $color3;
+    }
+}
+
+
 
 
 

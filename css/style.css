@@ -905,4 +905,23 @@ body {
   color: #222222;
 }
 
+.botn__whatsapp {
+  background-color: #40454B;
+  bottom: 35px;
+  right: 35px;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 50%;
+  text-align: center;
+  position: fixed;
+  font-size: 30px;
+  color: #CDCDCB;
+  transition: 400ms;
+}
+.botn__whatsapp:hover {
+  background-color: #CDCDCB;
+  color: #2B2B2B;
+}
+
 /*# sourceMappingURL=style.css.map */
