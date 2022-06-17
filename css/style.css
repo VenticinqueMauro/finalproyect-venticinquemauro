@@ -668,13 +668,13 @@ body {
   color: #40454B;
 }
 .main__nextpage {
-  padding-top: 80px;
+  padding-top: 110px;
   font-size: 40px;
   font-weight: 600;
 }
 @media (max-width: 992px) {
   .main__nextpage {
-    padding-top: 50px;
+    padding-top: 70px;
     font-size: 25px;
   }
 }
@@ -683,7 +683,7 @@ body {
   transition: 400ms;
 }
 .main__nextpage a:hover {
-  color: #CDCDCB;
+  color: #40454B;
 }
 .main__wave {
   position: absolute;
@@ -709,7 +709,7 @@ body {
   }
 }
 .sec2__title:hover {
-  color: #CDCDCB;
+  color: #050709;
 }
 
 .tools {
@@ -718,41 +718,33 @@ body {
 .tools__a--img {
   width: 100px;
   margin: 20px 0px;
-  transition: 600ms;
+  transition: 200ms;
+}
+.tools__a--img:hover {
+  border-radius: 50%;
+  box-shadow: 0px 0px 7px #000;
+  padding: 5px;
 }
 @media (max-width: 992px) {
   .tools__a--img {
     width: 80px;
   }
 }
-.tools__a--img:hover {
-  width: 105px;
-}
-@media (max-width: 992px) {
-  .tools__a--img:hover {
-    width: 85px;
-  }
-}
 .tools__a--imgS {
   width: 100px;
   height: 100px;
   margin: 20px 0px;
-  transition: 600ms;
+  transition: 200ms;
+}
+.tools__a--imgS:hover {
+  border-radius: 50%;
+  box-shadow: 0px 0px 7px #000;
+  padding: 5px;
 }
 @media (max-width: 992px) {
   .tools__a--imgS {
     width: 80px;
     height: 80px;
-  }
-}
-.tools__a--imgS:hover {
-  width: 105px;
-  height: 105px;
-}
-@media (max-width: 992px) {
-  .tools__a--imgS:hover {
-    width: 85px;
-    height: 85px;
   }
 }
 .tools__text {
@@ -762,13 +754,8 @@ body {
   font-weight: 400;
   transition: 400ms;
 }
-@media (max-width: 992px) {
-  .tools__text {
-    color: #CDCDCB;
-  }
-}
 .tools__text:hover {
-  color: #CDCDCB;
+  color: #050709;
 }
 
 .btn__nextpage {
@@ -788,7 +775,7 @@ body {
   transition: 400ms;
 }
 .btn__nextpage a:hover {
-  color: #CDCDCB;
+  color: #40454B;
 }
 
 .sect3 {
@@ -922,7 +909,7 @@ body {
 }
 
 .botn__whatsapp {
-  background-color: #40454B;
+  background-color: #CDCDCB;
   bottom: 35px;
   right: 35px;
   width: 45px;
@@ -932,12 +919,12 @@ body {
   text-align: center;
   position: fixed;
   font-size: 30px;
-  color: #CDCDCB;
-  transition: 400ms;
+  color: #050709;
+  transition: 300ms;
 }
 .botn__whatsapp:hover {
-  background-color: #CDCDCB;
-  color: #2B2B2B;
+  color: #050709;
+  transform: scale(1.1);
 }
 
 /*# sourceMappingURL=style.css.map */
