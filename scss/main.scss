@@ -5,13 +5,15 @@
 @import 'contact';
 @import 'galery';
 
+
 body{
     width: 100%;
-    background: rgb(5,7,9);
+    background: #050709;
     background: linear-gradient(67deg, rgba(5,7,9,1) 0%, rgba(34,34,34,1) 94%);
 }
 
 // SECTION 1
+
 
 
 .presentacion{
@@ -40,6 +42,7 @@ body{
     flex-direction: column;
     font-family: $font1;
     padding-top: 30px;
+    position: relative;
     &__redes{
         padding-top: 50px;
         font-size: 25px;
@@ -117,12 +120,19 @@ body{
             }
         }
     }
+    &__wave{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+}
 }
 
 
 // SECTION 2
 
 .sec2{
+    background-color: $color4;
     padding-top:50px;
     @media (max-width:992px){
     }
@@ -212,6 +222,18 @@ body{
 
 
 // SECTION 3
+
+
+.sect3{
+    position: relative;
+    &__wave{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -2;
+    }
+}
+
 
 .sec3{
     display: flex;
