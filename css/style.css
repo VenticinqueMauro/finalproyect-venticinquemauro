@@ -146,16 +146,61 @@
 .proyect__text {
   font-family: "Bebas Neue", cursive;
   text-align: center;
+  padding-top: 100px;
 }
 .proyect__text-h3 {
-  font-size: 40px;
-  color: #CDCDCB;
+  font-size: 50px;
+  font-weight: bolder;
+  color: #2B2B2B;
+  text-shadow: 0px 0px 20px #CDCDCB;
 }
 .proyect__text-p {
   font-size: 25px;
   transition: 400ms;
+  color: #CDCDCB;
 }
-.proyect__text-p:hover {
+
+.sec4__title {
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  font-size: 50px;
+  color: #2B2B2B;
+  font-weight: bolder;
+  text-shadow: 0px 0px 20px #CDCDCB;
+}
+
+.card {
+  border-radius: 10px;
+  padding-top: 20px;
+  font-weight: 600;
+  font-family: "Bebas Neue", cursive;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #40454B;
+  color: #40454B;
+  box-shadow: 0px 0px 5px #CDCDCB;
+}
+.card__title {
+  font-size: 40px;
+  color: #CDCDCB;
+  text-shadow: 0px 0px 5px #050709;
+}
+.card__title-h3 {
+  font-size: 30px;
+  color: #CDCDCB;
+  text-shadow: 0px 0px 3px #050709;
+}
+.card__text-p {
+  font-size: 18px;
+  padding: 5px;
+  color: #050709;
+  text-align: left;
+  transition: 400ms;
+}
+.card__text-p:hover {
   color: #CDCDCB;
 }
 
@@ -250,6 +295,15 @@
 
 .marquee {
   margin-top: 20px;
+}
+.marquee__a {
+  text-decoration: none;
+  color: #FFE271;
+  text-shadow: 0px 0px 5px #476591;
+  transition: 300ms;
+}
+.marquee__a:hover {
+  color: #050709;
 }
 .marquee__a-img {
   width: 200px;
@@ -921,6 +975,7 @@ body {
   position: fixed;
   font-size: 30px;
   color: #050709;
+  box-shadow: 0px 0px 5px #050709;
   transition: 300ms;
 }
 .botn__whatsapp:hover {
